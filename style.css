@@ -78,7 +78,8 @@
 .ex-6-img,
 .ex-7-img,
 .ex-9-img,
-.ex-10-icon{
+.ex-10-icon,
+.ex-11-icon{
     transition: all;
     animation-name: square;
     transition-timing-function: ease-in-out;
@@ -143,3 +144,21 @@
     animation-iteration-count: infinite;
     }
 }
+
+.well .ex-11-icon:hover {
+    animation-name: rotatedue;
+    animation-duration: 0.7s;
+}
+
+@keyframes rotatedue {
+    
+    0% {
+    transform: rotate(0);
+    }
+    100% {
+    transform:  rotate(270deg);
+    animation-iteration-count: infinite;
+    }
+}
+
+
