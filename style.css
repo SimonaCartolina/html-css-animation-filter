@@ -79,7 +79,9 @@
 .ex-7-img,
 .ex-9-img,
 .ex-10-icon,
-.ex-11-icon{
+.ex-11-icon,
+.ex-12-button,
+.ex-13-button{
     transition: all;
     animation-name: square;
     transition-timing-function: ease-in-out;
@@ -160,5 +162,82 @@
     animation-iteration-count: infinite;
     }
 }
+.ex-12-button .ex-12-top-white:hover{
+    animation-name: rotatetre;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes rotatetre {
+    
+    0% {
+    left:-10%;
+    top:20%;
+    }
+    15%{
+        left:-15%;
+        top:25%;
+    }
+    40%{
+        left:-20%;
+        top:30%;
+
+    }
+    70%{
+        left:-25%;
+        top:35%;
+
+    }
+    80%{
+        left:-30%;
+        top:40%;
+
+    }
+    100% {
+        left:-40%;
+        top:50%;
+    }
+}
+
+.ex-13-button .ex-13-top-white:hover{
+    animation-name: rotatequattro;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes rotatequattro {
+    
+    0% {
+    left:-10%;
+    top:20%;
+    }
+    15%{
+        left:-15%;
+        top:25%;
+    }
+    40%{
+        left:-20%;
+        top:30%;
+
+    }
+    70%{
+        left:-25%;
+        top:35%;
+
+    }
+    80%{
+        left:-30%;
+        top:40%;
+
+    }
+    100% {
+        left:-40%;
+        top:50%;
+    }
+}
+
+
 
 
